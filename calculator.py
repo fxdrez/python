@@ -55,9 +55,9 @@ else:
         print(z)
     elif op=="not":
         take=input("For x type 'x' or for y type 'y'")
-        if take==x:
+        if take=="x":
             z=not(x)
             print(z)
-        else:
+        elif take=="y":
             z=not(y)
             print(z)
